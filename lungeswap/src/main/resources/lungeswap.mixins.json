@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "dev.lungeswap.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientInvoker"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

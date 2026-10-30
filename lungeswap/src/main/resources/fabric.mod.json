@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "lungeswap",
+  "version": "1.0.0",
+  "name": "LungeSwap",
+  "description": "Ein Tastendruck: Lunge-Speer waehlen, jabben und auf den Slot mit dem geringsten Cooldown zurueckwechseln.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.lungeswap.LungeSwapClient"] },
+  "mixins": ["lungeswap.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
